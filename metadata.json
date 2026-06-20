@@ -1,0 +1,6 @@
+{
+  "name": "McLaren 720S Showcase",
+  "description": "Premium landing page for the McLaren 720S.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

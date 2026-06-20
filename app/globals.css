@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #FF6321;
+  --color-base: #050505;
+  --color-text: #F5F5F5;
+  --font-display: var(--font-playfair);
+  --font-sans: var(--font-sans);
+}
+
+@layer utilities {
+  .glass {
+    background-color: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .neon-glow {
+    text-shadow: 0 0 15px rgba(255, 99, 33, 0.4);
+  }
+}
